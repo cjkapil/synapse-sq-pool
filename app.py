@@ -134,3 +134,5 @@ class TaxiDataall(Queryable):
 # Create API routes
 api.add_resource(TaxiData, '/taxidataprice', '/taxidataprice/<total_amount>')
 api.add_resource(TaxiDataall, '/taxidataall')
+
+
